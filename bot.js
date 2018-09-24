@@ -11,4 +11,16 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'FreeFreight') {
+      message.reply('Thats my name!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'freefreight') {
+      message.reply('Thats my name!');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
