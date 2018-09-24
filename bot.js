@@ -42,7 +42,13 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'helpen') {
+    if (message.content === 'Help') {
+      message.reply('You can get support in the support-channel!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Helpen') {
       message.reply('You can get support in the support-channel!');
       }
 });
