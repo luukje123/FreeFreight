@@ -23,4 +23,16 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Freefreight') {
+      message.reply('Thats my name!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'convoy') {
+      message.reply('You can find convoy information in the #convoy');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
