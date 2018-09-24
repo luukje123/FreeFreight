@@ -31,7 +31,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'convoy') {
-      message.reply('You can find convoy information in the #convoy');
+      message.reply('You can find convoy information in the #convoy ');
       }
 });
 
