@@ -31,7 +31,19 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'convoy') {
-      message.reply('You can find convoy information in the convoy-channel');
+      message.reply('You can find convoy information in the convoy-channel!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'help') {
+      message.reply('You can get support in the support-channel!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'helpen') {
+      message.reply('You can get support in the support-channel!');
       }
 });
 
