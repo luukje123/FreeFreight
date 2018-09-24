@@ -53,4 +53,16 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Server') {
+      message.reply('Thats me!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'server') {
+      message.reply('Thats me!');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
