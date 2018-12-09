@@ -131,4 +131,28 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Lag') {
+      message.reply('Woon je toevallig in België?');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'lag') {
+      message.reply('Woon je toevallig in België?');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Nederland') {
+      message.reply('Place to be :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'nederland') {
+      message.reply('Place to be :D');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
