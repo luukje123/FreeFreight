@@ -389,16 +389,4 @@ client.on('message', message => {
       }
 });
 
-client.on('message', message => {
-    if (message.content === 'Lennert') {
-      message.reply('Hij kan niet zo goed zingen, je mag hem muten :D');
-      }
-});
-
-client.on('message', message => {
-    if (message.content === 'lennert') {
-      message.reply('Hij kan niet zo goed zingen, je mag hem muten :D');
-      }
-});
-
 client.login(process.env.BOT_TOKEN);
