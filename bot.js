@@ -95,4 +95,40 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Belg') {
+      message.reply('rare mensen :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'belg') {
+      message.reply('rare mensen :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'belgen') {
+      message.reply('rare mensen :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Belgen') {
+      message.reply('rare mensen :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Dylan') {
+      message.reply('pas op! Hou maar afstand!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'dylan') {
+      message.reply('pas op! Hou maar afstand!');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
