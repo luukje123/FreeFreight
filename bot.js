@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+zzzzconst Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -386,6 +386,18 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'myrnot') {
       message.reply('Hij spaart nogsteeds voor een stuur!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Lennert') {
+      message.reply('Hij kan niet zo goed zingen, je mag hem muten :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'lennert') {
+      message.reply('Hij kan niet zo goed zingen, je mag hem muten :D');
       }
 });
 
