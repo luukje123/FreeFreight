@@ -335,4 +335,16 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Maik') {
+      message.reply('Hij noemt zichzelf meneer de burgermeester, maar dat zal hij niet worden :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'maik') {
+      message.reply('Hij noemt zichzelf meneer de burgermeester, maar dat zal hij niet worden :D');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
