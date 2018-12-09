@@ -155,4 +155,16 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Frank') {
+      message.reply('Pas op! Hij gooit een fiets naar je auto! :(');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'frank') {
+      message.reply('Pas op! Hij gooit een fiets naar je auto! :(');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
