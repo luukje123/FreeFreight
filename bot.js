@@ -347,4 +347,34 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Owner') {
+      message.reply('jaa, die owners zijn goede gasten :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'owner') {
+      message.reply('jaa, die owners zijn goede gasten :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Owners') {
+      message.reply('jaa, die owners zijn goede gasten :D');
+      }
+});
+client.on('message', message => {
+    if (message.content === 'Owner') {
+      message.reply('jaa, die owners zijn goede gasten :D');
+      }
+});
+
+
+client.on('message', message => {
+    if (message.content === 'owners') {
+      message.reply('jaa, die owners zijn goede gasten :D');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
