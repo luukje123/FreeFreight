@@ -251,4 +251,76 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'God') {
+      message.reply('Ik aanbid je!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'god') {
+      message.reply('Ik aanbid je!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Skilled') {
+      message.reply('Dat doe ik je niet na :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'skilled') {
+      message.reply('Dat doe ik je niet na :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Pro') {
+      message.reply('Jij weet wel hoe je moet rijden ;)');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'pro') {
+      message.reply('Jij weet wel hoe je moet rijden ;)');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Advanced') {
+      message.reply('Begint erop te lijken!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'advanced') {
+      message.reply('Begint erop te lijken!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Amateur') {
+      message.reply('Dat moet veranderd worden :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'amateur') {
+      message.reply('Dat moet veranderd worden :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Rookie') {
+      message.reply('Er is werk aan de winkel :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'rookie') {
+      message.reply('Er is werk aan de winkel :D');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
