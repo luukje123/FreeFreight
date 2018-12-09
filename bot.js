@@ -65,4 +65,16 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'luuk') {
+      message.reply('The best owner you wil ever see! Also a cool dude btw!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Luuk') {
+      message.reply('The best owner you wil ever see! Also a cool dude btw!');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
