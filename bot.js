@@ -77,4 +77,22 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'VTC') {
+      message.reply('Virtual Trucking Company');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'vtc') {
+      message.reply('Virtual Trucking Company');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Vtc') {
+      message.reply('Virtual Trucking Company');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
