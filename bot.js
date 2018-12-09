@@ -167,4 +167,40 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'ETS') {
+      message.reply('Euro Truck Simulator. Leuk spel :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Ets') {
+      message.reply('Euro Truck Simulator. Leuk spel :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'ets') {
+      message.reply('Euro Truck Simulator. Leuk spel :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'ETS2') {
+      message.reply('Euro Truck Simulator. Leuk spel :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Ets2') {
+      message.reply('Euro Truck Simulator. Leuk spel :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'ets2') {
+      message.reply('Euro Truck Simulator. Leuk spel :D');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
