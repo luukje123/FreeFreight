@@ -203,4 +203,52 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === '100') {
+      message.reply('Ik betaal de boete niet :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === '110') {
+      message.reply('Ik betaal de boete niet :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === '120') {
+      message.reply('Ik betaal de boete niet :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === '130') {
+      message.reply('Ik betaal de boete niet :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === '140') {
+      message.reply('Ik betaal de boete niet :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === '150') {
+      message.reply('Ik betaal de boete niet :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Harder') {
+      message.reply('Ik betaal de boete niet :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'harder') {
+      message.reply('Ik betaal de boete niet :D');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
