@@ -364,16 +364,28 @@ client.on('message', message => {
       message.reply('jaa, die owners zijn goede gasten :D');
       }
 });
+
 client.on('message', message => {
     if (message.content === 'Owner') {
       message.reply('jaa, die owners zijn goede gasten :D');
       }
 });
 
-
 client.on('message', message => {
     if (message.content === 'owners') {
       message.reply('jaa, die owners zijn goede gasten :D');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Myrnot') {
+      message.reply('Hij spaart nogsteeds voor een stuur!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'myrnot') {
+      message.reply('Hij spaart nogsteeds voor een stuur!');
       }
 });
 
