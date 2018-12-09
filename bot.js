@@ -187,19 +187,19 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'ETS2') {
-      message.reply('Euro Truck Simulator. Leuk spel :D');
+      message.reply('Euro Truck Simulator 2. Leuk spel :D');
       }
 });
 
 client.on('message', message => {
     if (message.content === 'Ets2') {
-      message.reply('Euro Truck Simulator. Leuk spel :D');
+      message.reply('Euro Truck Simulator 2. Leuk spel :D');
       }
 });
 
 client.on('message', message => {
     if (message.content === 'ets2') {
-      message.reply('Euro Truck Simulator. Leuk spel :D');
+      message.reply('Euro Truck Simulator 2. Leuk spel :D');
       }
 });
 
