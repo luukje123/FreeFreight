@@ -401,4 +401,40 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Veteran') {
+      message.reply('Keep on fighting!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'veteran') {
+      message.reply('Keep on fighting!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Semi-Pro') {
+      message.reply('Je komt er wel!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'semi-Pro') {
+      message.reply('Je komt er wel!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Semi-pro') {
+      message.reply('Je komt er wel!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'semi-pro') {
+      message.reply('Je komt er wel!');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
