@@ -121,13 +121,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Dylan') {
-      message.reply('pas op! Hou maar afstand!');
+      message.reply('Nice, belgen weten hoe ze internet kunnen fixen :D');
       }
 });
 
 client.on('message', message => {
     if (message.content === 'dylan') {
-      message.reply('pas op! Hou maar afstand!');
+      message.reply('Nice, belgen weten hoe ze internet kunnen fixen :D');
       }
 });
 
