@@ -437,4 +437,16 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    if (message.content === 'Jens') {
+      message.reply('Blik bier, you are beautiful!');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'jens') {
+      message.reply('Blik bier, you are beautiful!');
+      }
+});
+
 client.login(process.env.BOT_TOKEN);
